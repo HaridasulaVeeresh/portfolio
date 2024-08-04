@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+    
+       <nav class="nav-bar">
+        <div class="Name">Haridasula Veeresh </div>
+        <div>
+           <ul class="nav-links">
+            <li><a href="#About">About</a></li>
+            <li><a href="#Skills">Skills</a></li>
+            <li><a href="#Projects">Projects</a></li>
+            <li><a href="#Contact">Contact</a></li>
+           </ul>
+        </div>
+       </nav>
+ 
+       <!-- TODO: -->
+
+       <nav class="small-nav">
+        <div class="Name">
+              Ashok Battula
+        </div>
+        <div class="menu">
+          <div class="menu-items">
+            <span onclick="toggle()"></span>
+            <span onclick="toggle()"></span>
+            <span onclick="toggle()"></span>
+          </div>
+          <div class="menu-links">
+            <li><a href="#About" onclick="toggle()">About</a></li>
+            <li><a href="#Skills" onclick="toggle()">Skills</a></li>
+            <li><a href="#Projects" onclick="toggle()">Projects</a></li>
+            <li><a href="#Contact" onclick="toggle()">Contact</a></li>
+        </div>
+        </div>
+       </nav>
+
+       <!-- TODO: -->
+
+       <section class="Info" >
+        <div class="Image">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTnJft8Xgf43C-d-FAGdwDinuiFmhK-FrvEw&s" alt="ProfilePhoto">
+        </div>
+        <div class="about-me">
+             <p id="Hello">Hello, I'm</p>
+             <h1 class="MyName">Haridasula Veeresh</h1>
+             <p class="MyRole">Frontend Developer</p>
+
+             <div class="btn1">
+                <button onclick="window.open('FRONT-END DEVELOPER.pdf')">Download CV</button>
+                <button class="btn2" onclick="location.href='./#Contact'">Contact me</button>
+             </div>
+             <!-- // Socials -->
+             <div class="Social">
+                 <!-- <img src="https://i.pinimg.com/600x315/b5/1b/78/b51b78ecc9e5711274931774e433b5e6.jpg" target="blank" alt="github" 
+                 onclick="location.href='https://github.com/AshokBattula'" /> -->
+                 <span class="github" onclick="location.href='https://github.com/vtu20334'"><i class="fa-brands fa-github fa-3x"></i></span>                 
+                 <span class="linkedIn" onclick="location.href='https://www.linkedin.com/in/haridasula-veeresh-0027622a6/'"><i class="fa-brands fa-linkedin fa-3x"></i></span>                 
+                </div>
+            </div>
+       </section>
+       <br/><br/><br/>
+
+       <!-- TODO: -->
+
+<center>
+  <p class="knowMore" id="About">Get to Know More</p>
+  <h1 class="title">About me</h1></center> <br/> <br/>
+
+       <section class="about"n id="About">
+          <div class="about-container">
+              <img class="image2" 
+              src="https://e1.pxfuel.com/desktop-wallpaper/613/777/desktop-wallpaper-gangster-cartoon-posted-by-michelle-sellers-stylish-cartoon-thumbnail.jpg" alt="image2">
+          </div>
+          <div class="about2">
+              <div class="about1">
+
+                <div class="about0">
+                 <span class="education-icon"><i class="fa-solid fa-user-graduate fa-3x"></i></span>
+                   <h3>Education</h3>
+                   <p>B.Tech Computer Science <br/> Veltech University</p>
+                   <h2>CGPA : 8.1</h2>
+                </div>
+
+                <div class="text-container">
+                  <p>As a front-end developer transitioning into backend development, my passion lies in tackling challenging projects and solving complex problems. With a strong foundation in front-end technologies like HTML, CSS, and JavaScript, I'm eager to expand my skills to encompass backend development frameworks and languages.My journey involves not just learning but actively applying my knowledge to build robust, scalable solutions. I thrive on overcoming technical hurdles and am committed to delivering high-quality projects that meet both user needs and technical standards.</p>
+                </div>
+              </div>               
+          </div>
+
+       </section>
+       <p class="MobilePara">As a front-end developer transitioning into backend development, my passion lies in tackling challenging projects and solving complex problems. With a strong foundation in front-end technologies like HTML, CSS, and JavaScript, I'm eager to expand my skills to encompass backend development frameworks and languages.My journey involves not just learning but actively applying my knowledge to build robust, scalable solutions. I thrive on overcoming technical hurdles and am committed to delivering high-quality projects that meet both user needs and technical standards.</p>
+
+
+       <div class="More">
+   <center><p id="Skills" class="knowMore">Explore My</p>
+    <h1 class="title" id="Skills">skills</h1></center>
+</div>
+
+        <!-- TODO: -->
+
+        <div class="skills-container" id="Skills">
+          <div class="box">
+            <h2 class="box-title">Frontend Development</h2>
+            <div class="skills-list">
+              <div class="skill-item">
+                <div class="tick-icon">
+                  <i class="fa-solid fa-circle-check"></i>
+                </div>
+                <h3>HTML <br/><p>Experienced</p></h3>
+              </div>
+              <div class="skill-item">
+                <div class="tick-icon">
+                  <i class="fa-solid fa-circle-check"></i>
+                </div>
+                <h3>CSS <br/><p>Experienced</p></h3>
+              </div>
+              <div class="skill-item">
+                <div class="tick-icon">
+                  <i class="fa-solid fa-circle-check"></i>
+                </div>
+                <h3>JavaScript <br/><p>Intermediate</p></h3>
+              </div>
+              <div class="skill-item">
+                <div class="tick-icon">
+                  <i class="fa-solid fa-circle-check"></i>
+                </div>
+                <h3>React <br/><p>Intermediate</p></h3>
+              </div>
+              <div class="skill-item">
+                <div class="tick-icon">
+                  <i class="fa-solid fa-circle-check"></i>
+                </div>
+                <h3>Tailwind CSS <br/><p>Intermediate</p></h3>
+              </div>
+
+            </div>
+          </div>
+          
+          <div class="box">
+            <h2 class="box-title">Backend</h2>
+            <div class="skills-list">
+              <div class="skill-item">
+                <div class="tick-icon">
+                  <i class="fa-solid fa-circle-check"></i>
+                </div>
+                <h3>MySQL <br/><p>Experienced</p></h3>
+              </div>
+              <div class="skill-item">
+                <div class="tick-icon">
+                  <i class="fa-solid fa-circle-check"></i>
+                </div>
+                <h3>Java<br/><p>Intermediate</p></h3>
+              </div>
+
+              <center><h2>Additional Skills</h2></center>
+              <div class="skill-item">
+                <div class="tick-icon">
+                  <i class="fa-solid fa-circle-check"></i>
+                </div>
+                <h3>PHP <br/><p>Intermediate</p></h3>
+              </div>
+
+              <center><h2>Version Control</h2></center>
+              <div class="skill-item">
+                <div class="tick-icon">
+                  <i class="fa-solid fa-circle-check"></i>
+                </div>
+                <h3>Git<br/><p>Intermediate</p></h3>
+              </div>
+              
+
+            </div>
+
+          </div>
+        </div>          <br/><br/>          <br/>
+
+        <!-- TODO: -->
+
+        <center>
+          <p id="Projects" class="knowMore">Browse my recent</p>
+          <h1 class="title">Projects</h1></center>
+          <br/><br/> 
+
+          <!-- TODO: -->
+          
+        
+     
+          
+        <div class="projects" id="Projects">
+
+          <div class="project">
+            <center><h1>Apple Store Landing Page</h1></center>
+            <center><img class="projectImage" src="https://www.apple.com/newsroom/images/product/services/lifestyle/Apple-Shop-with-a-Specialist-hero.jpg.landing-big_2x.jpg" alt="Apple Store"></center>
+            <div class="project-buttons">
+              <center>
+                <button onclick="location.href='https://github.com/AshokBattula/Apple_Store_Landing_Page'" class="gitbtn">Git</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <button class="deploybtn" onclick="location.href='https://ashokbattula.github.io/Apple_Store_Landing_Page/'">Live Demo</button>
+              </center>
+            </div>
+          </div>
+
+          <div class="project">
+            <center><h1>Genius Landing Page</h1></center>
+            <center><img class="projectImage" src="Screenshot (68).png" alt="Genius Landing Page"></center>
+            <div class="project-buttons">
+              <center>
+                <button class="gitbtn" onclick="location.href='https://github.com/AshokBattula/Genius-Landing-Page'">Git</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <button class="deploybtn" onclick="location.href='https://ashokbattula.github.io/Genius-Landing-Page/'">Live Demo</button>
+              </center>
+            </div>
+          </div>
+          <div class="project">
+            <center><h1>Spotify Landing Page</h1></center>
+            <center><img class="projectImage" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeAys758P75Bc3x3oxyE6kMTGltXPR4coLJg&s" alt="Spotify Landing Page"></center>
+            <div class="project-buttons">
+              <center>
+                <button class="gitbtn" onclick="location.href='https://github.com/AshokBattula/SPOTIFY_LANDING_PAGE'">Git</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <button class="deploybtn" onclick="location.href='https://ashokbattula.github.io/SPOTIFY_LANDING_PAGE/'">Live Demo</button>
+              </center>
+            </div>
+          </div>
+        </div>
+         <br/><br/><br/>
+        <!-- TODO: MINI PROJECTS -->
+
+
+        <center><h1 class="mini-">Mini Projects</h1></center>
+        <br/> <br/> <br/>
+      
+      <div class="mini-projects-container">
+          <div class="mini-project" id="mini-project1">
+              <h2>Weather Forecast</h2>
+              <img src="https://i.pinimg.com/originals/77/0b/80/770b805d5c99c7931366c2e84e88f251.png" alt="weather">
+              <div>
+                  <button class="gitbtn" onclick="location.href='https://github.com/AshokBattula/WEATHER-FORECAST'">Git</button>
+                  <button class="deploybtn" onclick="location.href='https://ashokbattula.github.io/WEATHER-FORECAST/'">Live Demo</button>
+              </div>
+          </div>
+          <div class="mini-project">
+              <h2>TO-DO LIST</h2>
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLW016VjGCrJMFy2VMGO25M46vfL7ShkFiNQ&s" alt="TO_DO LIST">
+              <div>
+                <button class="gitbtn" onclick="location.href='https://github.com/AshokBattula/TO-DO-LIST'">Git</button>
+                <button class="deploybtn" onclick="location.href='https://ashokbattula.github.io/TO-DO-LIST/'">Live Demo</button>
+              </div>
+          </div>
+          <div class="mini-project">
+              <h2>TIC TAC TOE</h2>
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDkTwSg80-fPb_ispMP_aIFCkfo3EV3yQ3Xg&s" alt="TIC TAC TOE">
+              <div>
+                <button class="gitbtn" onclick="location.href='https://github.com/AshokBattula/TIC-TAC-TOE_GAME'">Git</button>
+                <button class="deploybtn" onclick="location.href='https://ashokbattula.github.io/TIC-TAC-TOE_GAME/'">Live Demo</button>
+              </div>
+          </div>
+          <div class="mini-project" id="mini-project4">
+              <h2>QR Code Generator</h2>
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgmlMz54DYigrchHRR8d8rJ5gkEB1_yrvd8w&s" alt="QR CODE">
+              <div>
+                <button class="gitbtn" onclick="location.href='https://github.com/AshokBattula/Qr-Code-Generator'">Git</button>
+                <button class="deploybtn" onclick="location.href='https://ashokbattula.github.io/Qr-Code-Generator/'">Live Demo</button>
+              </div>
+          </div>
+      </div>
+      <br/><br/><br/><br/>
+      <center>
+        <p id="Contact">Get in Touch</p>
+        <h1 class="me">Contact me</h1>
+        <br/><br/><br/>
+      </center>
+      <center>
+        <div class="contact-box" id="Contact">
+            <div>
+                <p><i class="fa-solid fa-envelope"></i>&nbsp;&nbsp;&nbsp;&nbsp;<a href="mailto:veeresh.vveeru9347@gmail.com">veeresh.vveeru9347@gmail.com</a></p>
+            </div>
+            <div>
+                <p><i class="fa-solid fa-voicemail"></i>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.linkedin.com/in/haridasula-veeresh-0027622a6/">LinkedIn</a></p>
+            </div>
+        </div>
+    </center>
+    <br/><br/><br/><br/><br/><br/><br/><br/>
+    <center>
+      <nav class="nav-bar">
+        <!-- <div class="Name">Ashok Battula </div> -->
+        <div>
+           <ul class="nav-links">
+            <li><a href="#About">About</a></li>
+            <li><a href="#Skills">Skills</a></li>
+            <li><a href="#Projects">Projects</a></li>
+            <li><a href="#Contact">Contact</a></li>
+           </ul>
+        </div>
+       </nav>
+    </center>
+        
+        
+
+    
+
+    <script src="javascript.js"></script>
+</body>
+</html>
